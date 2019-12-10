@@ -25,15 +25,15 @@ This is my portifolio project where i have created gorgeous portifolio site to s
 
 # Common Setup
 #### Clone the repo and install the dependencies.
-1. git clone https://github.com/anilvarma-kav/portifolio.git
-   cd portifolio
+    1. git clone https://github.com/anilvarma-kav/portifolio.git
+       cd portifolio
 
-2. npm install // Installs all the dependencies
+    2. npm install // Installs all the dependencies
 
 #### Start The server
 * Open the terminal/Command Prompt
 * Navigate to the Project Folder i.e portifolio and add the following command and hit enter
-1. portifolio$ nodemon
+    1. portifolio$ nodemon
 
 
 
