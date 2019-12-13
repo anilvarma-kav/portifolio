@@ -17,7 +17,10 @@ This is my portifolio project where i have created gorgeous portifolio site to s
 * Working with server-side JavaScript
 * Able to build a powerful and modern back end project
 
-
+### CSS Xhanges Made:
+    1. Changed the font to "Kalam"
+    2. Added image hovering animation for index page
+    3. Added box shawdow to all the image boxes.
 # Requirements
 * Node
 * npm
@@ -34,6 +37,10 @@ This is my portifolio project where i have created gorgeous portifolio site to s
 * Open the terminal/Command Prompt
 * Navigate to the Project Folder i.e portifolio and add the following command and hit enter
     1. portifolio$ nodemon
+           or
+    2. npm start
+           or
+    3. node app.js
 
 
 

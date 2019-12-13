@@ -29,4 +29,5 @@ block content
       
       //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
       each screenshot in projects[id-1].image_url[1]
-        img.image(src=`${screenshot}`, width=1200, height=1200)
+        .box
+          img.image(src=`${screenshot}`, width=1200, height=1200)

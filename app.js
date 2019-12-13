@@ -1,39 +1,42 @@
+//Creating express server
 const express = require('express');
 const app = express();
-
+//Importing projects data and storing in projects object
 const {projects} = require('./data/projects');
-
+//Setting PUG as view engine
 app.set('view engine', 'pug');
-
+//Setting static server 
 app.use('/static',express.static('public'));
-console.log(projects[0]);
+//Home route
 app.get('/', (req, res)=>{
     res.render('index', {projects});
 });
+//about route
 app.get('/about', (req, res)=>{
     res.render('about');
 });
+//project route
 app.get('/:id', (req, res, next)=>{
     const {id} = req.params;
-    console.log(id)
     if(id > 0 && id <= projects.length){
         res.render('project', {id, projects});
     }
     else{
-        const err = new Error('Project Not found');
+        const err = new Error('Page Not found');
         err.status = 404;
         next(err);    
     }
 });
-app.use((req,res, next) =>{
-    const err = new Error('Not found');
+//Error handling route
+app.use((req, res, next)=>{
+    const err = new Error('Page Not found');
     err.status = 404;
     next(err);
- });
+});
 app.use((err, req, res, next)=>{
     res.locals.error = err;
-    console.error("Page not found: 404",err);
-    res.render('error', err);
+    console.error(err.message, err.status);
+    res.render('error');
     next();
 });
 

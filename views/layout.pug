@@ -5,7 +5,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href='"https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet"', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -14,7 +14,8 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='static/images/profile.png')
+            .box
+              img.thumbnail(src='static/profile.png')
           .cell.auto
 
             //- Add your name here.
@@ -22,7 +23,7 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | This portifolio is all about to the work I have done and how I am the most amazing web develooper that you should most definitly hire immedietly.
+              | This portifolio is all about to demontrate the work that I have done and how I am the most amazing web develooper that you should most definitly hire immedietly.
             //- Add about page route to the href below. 
             a(href='/about') Learn More →
 

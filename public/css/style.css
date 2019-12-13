@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Kalam', cursive;
 }
 
   h5{
@@ -147,4 +147,23 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.box {
+  transition: box-shadow .8s;
+  margin: 10px;
+  border-radius:10px;
+  border: 1px solid rgb(41, 133, 194);
+  background: rgb(43, 104, 173);
+  float: left;
+  overflow: hidden;
+}
+.box img {
+  transition: transform .5s ease;
+}
+.box:hover {
+  box-shadow: 0 0 25px rgba(29, 119, 192, 0.2); 
+}
+.box:hover img {
+  transform: scale(1.25);
 }
