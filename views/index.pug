@@ -5,23 +5,19 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Heading
+      h1 Welcome to my Portifolio website
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | Portfolio Description
+        |  This portifolio website is mainly to demontrate my Skills. Including, but not limited to: Web Development, soft skills, Problem Solving and life long learning.
   article.grid-container.portfolio-index
-    
+
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+        each project in projects
+          .cell
+            a(href=`/${project.id}`)
+              img.thumbnail(src= project.image_url[0],height=550, width=550)
+              h5= project.project_name
+          
 
-      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
-      
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
-      
-      //- Here's what the Pug for each project example should look like. 
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
       

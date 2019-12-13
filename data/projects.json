@@ -1,0 +1,59 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "project_name": "Random Quote Generator",
+        "description": "A small static web app that displays random famous quotes each time a button cliked or for every 20 seconds. This was my first web that I have ever created.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://anilvarma-kav.github.io/Random_Quote_generator/",
+        "github_link": "https://github.com/anilvarma-kav/Random_Quote_generator",
+        "image_url": ["/static/images/randomQuote/home.png",["/static/images/randomQuote/one.png"]]
+      },
+      {
+        "id": 2,
+        "project_name": "List Pagination and Filtering",
+        "description": "List Pagination and Filtering is a small web application used to paginate the lits based on the number of lists to be displayed on each page. In this web application, index.html file contains a list of students with details like profile image, name, e-mail and joning date. By using JavaScript, I paginated the lists to enhance the usability of the web application. The pagination is implemented dynamically like if we add more student list items to the html, then the web application will dynamically create pagelinks based on the number of items to be displayed on the list. I have used the principle prograssive enhancement to do the project by adding the feautures one by one and testing them by using DevTools and also just used the plain vanilla JavaScript to complete the project. I also used unobtrusive Javascript to add the pagination links dynamically without HTML i.e pagination links display based on the number of search results returned. If there are noe results then it dislays Sorry, no results found",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://anilvarma-kav.github.io/list_pagination_and_filtering/",
+        "github_link": "https://github.com/anilvarma-kav/list_pagination_and_filtering",
+        "image_url": ["/static/images/lists/home.png",["/static/images/lists/one.png", "/static/images/lists/two.png", "/static/images/lists/three.png"]]
+      },
+      {
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "In This project I am creating an Interactive Registration form for a fictional Conference called FullStack Conf using HTML, CSS , JavaScript and jQuery Library to make the form more user-friendly by Adding customized and conditional behavior and interactivity, and Validating user input and providing helpful error messages when the user enters invalid information into the form fields. (by using regular expressions). In this project instead of plain JavaScript I will be using jQuery library. I am using jQuery because of three reasons: Shorter and simplified syntax, Help with cross-browser compatibility since jQuery deals with a lot of that stuff under the hood and A strong familiarity with jQuery will only make you a better developer since it enjoys a strong market share on the web.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": "https://anilvarma-kav.github.io/Interactive-Form/",
+        "github_link": "https://github.com/anilvarma-kav/Interactive-Form",
+        "image_url": ["/static/images/InteractiveForm/home.png",["/static/images/InteractiveForm/one.png", "/static/images/InteractiveForm/two.png", "/static/images/InteractiveForm/three.png"]]
+      },
+      {
+        "id": 4,
+        "project_name": "Guess the Phrase",
+        "description": "A dare to guess the random phrase. This is a small phrase guessing game that was developed using JavaScript and OOP(Object Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on onscreen keyboard. Added Feature: Now player can also choose letters from system keyboard",
+        "technologies": ["HTML", "CSS", "JavaScript","jQuery"],
+        "live_link": "https://anilvarma-kav.github.io/Guess_the_Phrase/",
+        "github_link": "https://github.com/anilvarma-kav/Guess_the_Phrase",
+        "image_url": ["/static/images/guessPhrase/home.png",["/static/images/guessPhrase/one.png", "/static/images/guessPhrase/two.png", "/static/images/guessPhrase/three.png"]]
+      },
+      {
+        "id": 5,
+        "project_name": "Random User Public API Request",
+        "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. I used Random User Generator API [https://randomuser.me/] to grab information for 12 random employess and then that data used to build a prototype for an Awesome Startup employee directory. This project is mainly to demonstrate my skills on working with public API's, Making API requests and Asynchonously handling the data using javascript promises",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://anilvarma-kav.github.io/Public_API_Requests/",
+        "github_link": "https://github.com/anilvarma-kav/Public_API_Requests",
+        "image_url": ["/static/images/API/home.png",["/static/images/API/one.png", "/static/images/API/two.png", "/static/images/API/three.png"]]
+      },
+      {
+        "id": 6,
+        "project_name": "RSVP-APP",
+        "description": "A small static webpage which can be used to add invites to a list and also to check them with the confirmation for an event.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://anilvarma-kav.github.io/RSVP_app/",
+        "github_link": "https://github.com/anilvarma-kav/RSVP_app",
+        "image_url": ["/static/images/RSVP/home.png",["/static/images/RSVP/one.png", "/static/images/RSVP/two.png", "/static/images/RSVP/three.png"]]
+      }
+    ]
+  }
+  
