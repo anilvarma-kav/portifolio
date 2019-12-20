@@ -16,8 +16,8 @@ app.get('/about', (req, res)=>{
     res.render('about');
 });
 //project route
-app.get('/:id', (req, res, next)=>{
-    const {id} = req.params;
+app.get('/project', (req, res, next)=>{
+    const {id} = req.query;
     if(id > 0 && id <= projects.length){
         res.render('project', {id, projects});
     }
@@ -35,7 +35,7 @@ app.use((req, res, next)=>{
 });
 app.use((err, req, res, next)=>{
     res.locals.error = err;
-    console.error(err.message, err.status);
+    console.error(err);
     res.render('error');
     next();
 });

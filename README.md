@@ -17,7 +17,7 @@ This is my portifolio project where i have created gorgeous portifolio site to s
 * Working with server-side JavaScript
 * Able to build a powerful and modern back end project
 
-### CSS Xhanges Made:
+### CSS Changes Made:
     1. Changed the font to "Kalam"
     2. Added image hovering animation for index page
     3. Added box shawdow to all the image boxes.
