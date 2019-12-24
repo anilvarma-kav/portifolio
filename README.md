@@ -1,6 +1,8 @@
 # portifolio
 This is my portifolio project where i have created gorgeous portifolio site to showcase the great projects that i have built. This portifolio site will contain a modern landing page, an about page where I have chance to share my contact info and talk a little bit about myself, and a series of project pages to show of and detail all the projects that i have built.
 
+### Hosted using Heroku:
+URL: https://enigmatic-ocean-27235.herokuapp.com
 ## I have used Node.js and Expres to:
 * Import required dependencies
 * Set up routes to handle requests
