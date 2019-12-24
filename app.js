@@ -40,6 +40,6 @@ app.use((err, req, res, next)=>{
     next();
 });
 
-app.listen(5000, () => {
-    console.log("Application is running on Port: 3000");
+app.listen(process.env.PORT, () => {
+    console.log("Application is running on Port: "+ process.env.PORT);
 });//Port number that server runs
